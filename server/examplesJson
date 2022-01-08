@@ -1,0 +1,48 @@
+à la connection : 
+{
+    infosUser: {
+        id: '',
+        pseudo: '',
+        email: '',
+        password: '',
+        admin: ''
+    },
+    Rooms: [
+        {
+            name: '',
+            id: ''
+        },
+        {
+            name: '',
+            id: ''
+        },
+        ...
+    ]
+}
+
+join room : 
+{
+    room: {
+        id: '',
+        name: '',
+        idAdmin: '',
+    },
+    members:  [
+        {
+            id: '',
+            pseudo: ''
+        },
+        {
+            id: '',
+            pseudo: ''
+        },
+        ...
+    ],
+    messages: [
+        {
+            idOrigin: '',
+            pseudoOrigin: '',
+            date: '',
+        }
+    ]
+}

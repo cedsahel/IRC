@@ -1,0 +1,18 @@
+.login{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #212121;
+    height: 100vh;
+    align-items: center;
+}
+
+.login input{
+    width: 400px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.login h1,h2{
+    color: #FFF
+}
